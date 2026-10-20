@@ -214,7 +214,7 @@
 // let result = 0;
 // for (let i = 0; i < students.length; i++) {
 
-//   result+=students[i].age  
+//   result+=students[i].age
 // }
 // const average = result / students.length
 // console.log(average);
@@ -222,6 +222,54 @@
 // const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }]
 // let product = []
 
-// for (let i = 0; i < product.length; i++) {
+// for (let i = 0; i < products.length; i++) {
+//     product.push(products[i].title,
+//         products[i].price * 0.1 + products[i].price)
+// }
+//  console.log(product);
 
+// let employees = [
+//   { name: "Амгалан", salary: 1000, active: true, department: "IT" },
+//   { name: "Номин", salary: 1500, active: false, department: "HR" },
+//   { name: "Баяр", salary: 1200, active: true, department: "IT" },
+// ];
+// let count = 0
+// let totalSalary=0
+// for (let i = 0; i < employees.length; i++) {
+//   if (employees[i].active === true) {
+//     count++; totalSalary+=employees[i].salary
+//   }
+// }
+// console.log(totalSalary/count);
+
+// const sentence = "Би JavaScript сурч байна";
+// let spact = " ";
+// let count = 0;
+// for (i = 0; i < sentence.length; i++) {
+//   if (sentence [i]=== spact) {
+//     count++;
+//   }
+// }
+// console.log(count);
+
+// const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }]
+// for (i = 0; i < products.length; i++){
+//     if (products[i].price > 600) {
+//         console.log(products[i]);
+
+//     }
+
+// }
+
+// const word = "JavaScript";
+// let count = 0;
+// for (i = 0; i < word.length; i++) {
+//     if (word.charCodeAt(i) >= 65 &&
+//         word.charCodeAt(i)<=90
+//     ) count++
+// }
+// console.log(count);
+
+// for (let i = 0; i <= 5; i++) {
+//   console.log("*".repeat(i));
 // }
